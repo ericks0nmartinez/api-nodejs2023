@@ -1,0 +1,19 @@
+{
+  "name": "api-nodejs-2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ericks0nmartinez/api-nodejs2023.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sequelize-cli": "^6.6.1"
+  }
+}
